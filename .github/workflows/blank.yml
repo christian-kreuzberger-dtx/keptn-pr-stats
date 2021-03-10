@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run pull request stats
-        uses: flowwer-dev/pull-request-stats@v1.1
+        uses: flowwer-dev/pull-request-stats@v1.1.0
         with:
           token: ${{ secrets.PAT }}
           repositories: 'keptn/keptn,keptn/go-utils,keptn/kubernetes-utils,keptn/keptn.github.io,keptn/spec'
